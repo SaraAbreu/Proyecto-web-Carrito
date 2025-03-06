@@ -1,0 +1,163 @@
+html{
+    font-size:62.5%;
+}
+body{
+    background-color:#f5f3f3;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 3rem;
+}
+h4{
+    font-size:2rem;
+    font-weight: 700;
+}
+ul{
+    list-style:none;
+}
+header{
+   background-color: white;
+   padding:2rem 0 0 0;
+   text-align: center;
+}
+@media (min-width: 750px) {
+    header{
+        text-align: left;
+    }
+}
+.borrar-curso{
+    background-color: red;
+    color: white;
+    border-radius:50%;
+    font-weight: bold;
+    text-decoration: none;
+}
+#hero{
+    background-image: url(../img/hero.jpg);
+    height: 350px;
+    background-size: cover;
+}
+#encabezado{
+    margin: 3rem 0;
+}
+.submenu{
+    position: relative;
+}
+.submenu #carrito{
+    display:none;
+}
+.submenu:hover #carrito{
+    display:block;
+    position: absolute;
+    right:0;
+    top:100%;
+    background-color: white;
+    z-index: 1;
+    padding: 2rem;
+    min-height: 40rem;
+    min-width: 30rem;
+}
+.contenido-hero{
+    margin-top: 8rem;
+    color: white;
+}
+.contenido-hero form{
+    position:relative;
+    margin-bottom: 0;
+}
+.contenido-hero form #buscador{
+    height: 50px;
+    margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador{
+    position: absolute;
+    right:0;
+    top:0;
+    height: 100%;
+    padding:0;
+    display:block;
+    text-indent: -9999px;
+    width:50%;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border:none;
+}
+.barra{
+    padding:20px 0;
+    background: #741d51; /* Navegadores viejos*/
+    background: -moz-linear-gradient(left, #741d51 0%, #e44e52 100%);/* FF3.6-15*/
+    background: -webkit-linear-gradient(left, #741d51 0%, #e44e52 100%);/* chrome 4-9, Safari 5.1-6*/
+    background: linear-gradient(to right, #741d51 0%, #e44e52 100%);/* W3C + IE10+, FF16+, chrome26+, Opera12+, Safari7+ */
+}
+.barra p{
+    margin:0;
+    color:white;
+}
+.icono{
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 3rem;
+    padding-left: 6rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+@media (min-width: 750px) {
+    .icono{
+        margin-bottom: 0;
+    }
+}
+.icono1{
+    background-image: url(../img/icono1.png);
+}
+.icono2{
+    background-image: url(../img/icono2.png);
+}
+.icono3{
+    background-image: url(../img/icono3.png);
+}
+#lista-cursos .row{
+    margin-bottom: 2rem;
+}
+.agregar-carrito{
+    margin:1rem 0;
+}
+.card{
+    text-align: center;
+    border:1px solid #e1e1e1;
+    background: white;
+
+}
+@media (min-width: 750px) {
+    .card{
+        text-align: left;
+    }
+}
+.info-card{
+padding: 1rem 2rem;
+}
+.info-card p,
+.card h4{
+margin-bottom: .5rem;
+}
+.info-card .precio{
+    text-decoration: line-through;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+.info-card .precio span{
+    font-weight: 700;
+    font-size:2.2rem;
+}
+.footer{
+    margin-top:4rem;
+    border-top:1px solid #aaa;
+    padding-top:4rem;
+}
+.footer .menu a{
+    display:block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
